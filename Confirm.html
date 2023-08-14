@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Booking!</title>
+    <link rel="stylesheet" href="confirm.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-toggle" onclick="toggleNav()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="navbar-list" id="navbarList">
+            <li><a href="Hikkaduwa Turtle Hatchery.html">Home</a></li>
+            <li><a href="tickets.html">Tickets</a></li>
+            <li><a href="details.html">Details</a></li>
+            <li><a href="payment.html">Payments</a></li>
+            <li><a href="">Confirmation</a></li>
+        </ul>
+    </nav>
+    <div class="thank-you-message">
+        <h1>Thank You for Booking!</h1>
+        <p>Your ticket has been successfully booked. Here are the details of your booking:</p>
+        <div class="summary-table">
+            <table>
+                <tr>
+                    <th>Field</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td id="summary-name">.</td>
+                </tr>
+                <tr>
+                    <td>E-Mail</td>
+                    <td id="summary-mail">.</td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td id="summary-gender">.</td>
+                </tr>
+                <tr>
+                    <td>Telephone</td>
+                    <td id="summary-telephone">.</td>
+                </tr>
+                <tr>
+                    <td>Date</td>
+                    <td id="summary-date">.</td>
+                </tr>
+                <tr>
+                    <td>Time</td>
+                    <td id="summary-time">.</td>
+                </tr>
+                <tr>
+                    <td>Duration</td>
+                    <td id="summary-duration">.</td>
+                </tr>
+                <tr>
+                    <td>Tickets</td>
+                    <td id="summary-tickets">.</td>
+                </tr>
+                <tr>
+                    <td>Total Payable</td>
+                    <td id="summary-total">$</td>
+                </tr>
+            </table>
+        </div>
+        <p>Thank you for your order. Your order has been confirmed with us. 
+            You can show this confirmation at the entrance.   </p>
+    </div>
+</body>
+<footer>
+    <div class="footer-content">
+        <p>&copy;  All rights reserved.</p>
+    </div>
+</html>
+
+<script>
+    function toggleNav() {
+    const navbarList = document.getElementById("navbarList");
+    navbarList.classList.toggle("show");
+  }
+  
+</script>

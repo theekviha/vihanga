@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="details.css">
+    
+</head>
+<body>
+
+    <header class="head">
+        
+       
+
+        <h1 class="tickets" > BUY TICKETS </h1>
+    </header>
+        
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<nav class="navbar">
+    <div class="navbar-toggle" onclick="toggleNav()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <ul class="navbar-list" id="navbarList">
+        <li><a href=".html">Home</a></li>
+        <li><a href="tickets.html">Tickets</a></li>
+        <li><a href="details.html">Details</a></li>
+        <li><a href="payment.html">Payments</a></li>
+        <li><a href="Confirm.html">Confirmation</a></li>
+    </ul>
+</nav>
+
+<div class="containerS">
+<center>
+    <form id="phone-form"onsubmit="return validateForm()">
+
+        <div class="side">
+
+            <div class="down">
+
+                <h2 class="caption">Details</h2>
+
+                <div class="enter">
+                    <span>Full name :</span>
+                    <input type="text" placeholder="Name" required>
+                </div>
+                <div class="enter">
+                    <span>Email :</span>
+                    <input type="email" placeholder="example@example.com"required>
+                </div>
+                <div class="enter">
+                    <span>Confirm Email :</span>
+                    <input type="text" placeholder="example@example.com" required>
+                </div>
+                <div class="enter">
+                    <span> Mobile Number :</span>
+                    <!-- <input type="text" name="phone" require placeholder="770 000 0000" required> -->
+                    <input type="tel"  placeholder="770 000 0000">
+                </div>
+                <div class="proceed">
+             <button class="payment"><a href="payment.html">Proceed</button></a>
+                </div>
+                 </form> 
+
+            </div>
+            
+ 
+<script src="details.js"></script>
+          
+<footer>
+    <div class="footer-content">
+        <p>&copy;  All rights reserved.</p>
+    </div>
+</footer>
+<div class="P">
+    <button><a href="payment.html"class="purchase-link">Continue with Purchase </a></button>
+</div>
+</body>
+</html>

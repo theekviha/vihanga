@@ -1,0 +1,133 @@
+html{
+    background-image:url(Images/1.jpeg);
+    background-position: center top;
+    background-size: cover;
+
+}
+.cover-page h1{
+    background-color: rgb(234, 201, 37);
+    height: 80px;
+    width: 100%;
+  font-size: 56px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(0, 0, 0);
+    align-items: center;
+ text-align: center;
+ margin-top: 10px;
+ 
+  
+
+}
+footer {
+    background-color:rgb(234, 201, 37);
+    color: #000000;
+    text-align: center;
+   position: relative;
+    top: 381px;
+    left: -420px;
+    font-size: 19px;
+  padding: 40px;
+  width: 1777px;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  
+  }
+  .footer-content p{
+    position: relative;
+    left: 168px;
+  }
+.booking-form{
+    border: 5px solid rgb(0, 0, 0);
+    display: inline-block;
+    margin-top: 80px;
+   margin-left: 310px;
+   font-size: 20px;
+   text-align: center;
+   background-color: rgb(234, 201, 37);
+   font-weight: bold;
+   width: 400px;
+   border-radius: 20px;
+    
+}
+.tickets{
+    display: grid;
+    align-items: center;
+}
+.tickets-item{
+    display: flex;
+    align-items: center;
+}
+.P button{
+background-color: rgb(207, 239, 80);
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 440px;
+    
+}
+
+.summary-table{
+    margin-left: 900px;
+    margin-top: -370px;
+    color: white;
+}
+.purchase-link {
+    text-decoration: none; /* Remove underline */
+    color: rgb(0, 0, 0); /* Change font color */
+}
+/* Add this CSS to your existing styles */
+.navbar {
+
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar-list {
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+  left: 60px;
+  top: 50px;
+border: 3px solid black;
+
+    width: 20%;
+    text-align: center;
+    
+}
+
+.navbar-list.show {
+    display: block;
+}
+
+.navbar-list li {
+    padding: 15px 0;
+    font-size: 18px;
+}
+
+.navbar-list a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: block;
+}
+
+.navbar-toggle {
+    cursor: pointer;
+    padding: 15px;
+    float: left;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}

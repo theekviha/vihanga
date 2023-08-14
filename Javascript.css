@@ -1,0 +1,19 @@
+.buytickets button{
+   
+position: absolute;
+top: 1770px;
+left: 690px;
+font-size: 36px;
+cursor: pointer;
+  border:3px solid rgb(27, 1, 1);
+background-color: #c0e90a;
+
+}
+button a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+button:hover{
+  background-color: rgb(102, 228, 85);
+}
